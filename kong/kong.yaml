@@ -7,7 +7,7 @@ services:
   path: /anything
   port: 80
   protocol: http
-  read_timeout: 60000
+  read_timeout: 50000
   retries: 5
   routes:
   - hosts:
